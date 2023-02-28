@@ -14,10 +14,7 @@ def my_printf(format_string,param):
                     print(param.upper(),end="")
                 shouldDo=False
             else:
-                if format_string[idx].isupper():
-                    print(format_string[idx].lower(),end="")
-                else:
-                    print(format_string[idx].upper(),end="")
+                print(format_string[idx],end="")
         else:
             shouldDo=True
     print("")

@@ -1,10 +1,10 @@
-TOTAFSDFSF TEST FDSFSDF
-TOTAFSDTEST2 FDSFSDF FDFJS
-JFLDJFLDK # WYNIK
-FJDFSFDS # K ALAL
-DJFJKLDSJF TEST5 JJJJJJ FSFJDLJFDLSJ FLJ LDFJ
-GJJKDSLJFLDS TEST6 JDLKFJDSLF
-FJDSLKFJDL TEST7 TTTTTT
-FJDLSJFKL TEST8 OOOOLLL
-RWREWREW TEST9 FJDSLKJFDL
-FJDLSKJFLDJFLJ TEST10 REWREWREW
+totafsdfsf TEST fdsfsdf
+totafsdTEST2 fdsfsdf fdfjs
+jfldjfldk # wynik
+fjdfsfds # k alal
+djfjkldsjf TEST5 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds TEST6 jdlkfjdslf
+fjdslkfjdl TEST7 tttttt
+fjdlsjfkl TEST8 oooolll
+rwrewrew TEST9 fjdslkjfdl
+fjdlskjfldjflj TEST10 rewrewrew
