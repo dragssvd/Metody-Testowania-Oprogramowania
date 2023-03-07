@@ -13,14 +13,18 @@ def my_printf(format_string,param):
                 print(param,end="")
                 shouldDo=False
 
-            elif format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+3] == 'k':
-                param_limit = int(format_string[idx+2])
+            elif format_string[idx] == '#' and format_string[idx+1] == '.':
+                i=0
+                while format_string[idx+2+i].isnumeric():
+                    i+=1
+                
+                param_limit = int(format_string[idx+2:idx+2+i])
                 param = param.swapcase()
                 if len(param) > param_limit:
                     print(param[0:param_limit], end="")
                 else:
                     print(param,end="")
-                skip = 2
+                skip = 1+i
                 
                 shouldDo=False
 
