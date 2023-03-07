@@ -5,6 +5,7 @@ import sys
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
+    skip = 0
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'k':
@@ -19,12 +20,15 @@ def my_printf(format_string,param):
                     print(param[0:param_limit], end="")
                 else:
                     print(param,end="")
-
-                idx=idx+2
+                skip = 2
+                
                 shouldDo=False
 
             else:
-                print(format_string[idx],end="")
+                if skip == 0:
+                    print(format_string[idx],end="")
+                else:
+                    skip -= 1
         else:
             shouldDo=True
     print("")
