@@ -6,8 +6,8 @@ ala ma #g koty
 45
 test #g
 240
-#.g
-24
+test losowego znaku #g w srodku inta
+123a123
 #gg
 10
 kocham#gmame
