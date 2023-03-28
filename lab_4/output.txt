@@ -2,7 +2,7 @@
 -321
 ala ma 54 koty
 test 42
-#.g
+test losowego znaku #g w srodku inta
 1g
 kocham9876543mame
 -54321
