@@ -16,7 +16,7 @@ def my_printf(format_string,param):
             nparam += str((int(c)-1)%10)
 
         if negative:
-            nparam = '-'+nparam
+            nparam = '-' + nparam
         print(format_string.replace('#g', str(nparam)))
 
 data=sys.stdin.readlines()
