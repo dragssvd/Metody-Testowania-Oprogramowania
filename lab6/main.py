@@ -17,7 +17,7 @@ def my_printf(format_string,param):
             param = param[1:]
         nparam=''
         for c in param:
-            nparam += convert(c)
+            nparam += str(convert(int(c)))
 
         if negative:
             nparam = '-' + nparam
