@@ -21,7 +21,7 @@ def my_printf(format_string,param):
 
         if negative:
             nparam = '-' + nparam
-        print(format_string.replace('#g', str(nparam)))
+        print(format_string.replace('#.Xg', str(nparam)))
 
 data=sys.stdin.readlines()
 
