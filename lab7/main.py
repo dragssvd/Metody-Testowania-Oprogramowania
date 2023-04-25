@@ -2,8 +2,6 @@
 
 import sys
 
-#g-l: a -> g, b -> h, c -> i, d -> j, e->k, f-> l.
-
 def convert(number):
     nparam = ''
     for c in number:
