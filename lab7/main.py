@@ -2,19 +2,33 @@
 
 import sys
 
+#g-l: a -> g, b -> h, c -> i, d -> j, e->k, f-> l.
+
+def convert(number):
+    nparam = ''
+    for c in number:
+        match c:
+            case 'a':
+                nparam += 'g'
+            case 'b':
+                nparam += 'h'
+            case 'c':
+                nparam += 'i'
+            case 'd':
+                nparam += 'j'
+            case 'e':
+                nparam += 'k'
+            case 'f':
+                nparam += 'l'
+            case _:
+                nparam += c
+    return nparam
+
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    
+    param = str(hex(int(param))).lower()
+    param = convert(param.replace('0x',''))
+    print(format_string.replace('#j', param))
 
 data=sys.stdin.readlines()
 
