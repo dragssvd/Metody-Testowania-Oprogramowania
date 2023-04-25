@@ -25,10 +25,7 @@ def convert(number):
     return nparam
 
 def my_printf(format_string,param):
-    
-    param = str(hex(int(param))).lower()
-    param = convert(param.replace('0x',''))
-    print(format_string.replace('#j', param))
+    print(format_string.replace('#j', convert(str(hex(int(param))).lower().replace('0x',''))))
 
 data=sys.stdin.readlines()
 
