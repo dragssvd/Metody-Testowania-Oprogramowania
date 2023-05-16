@@ -18,6 +18,8 @@ def convert(number):
                 nparam += 'k'
             case 'f':
                 nparam += 'l'
+            case '0':
+                nparam += 'o'
             case _:
                 nparam += c
     return nparam
@@ -47,9 +49,9 @@ def my_printf(format_string,param):
         nparam=''
         if param_limit > len(param):
             for x in range(0, param_limit-len(param)):
-                nparam = nparam + '0'
+                nparam = nparam + 'o'
 
-        nparam = nparam + str(convert(param))
+        nparam = nparam + str(convert(str(hex(int(param))).lower().replace('0x','')))
 
         if len(param) > param_limit:
             nparam = nparam[0:param_limit]
