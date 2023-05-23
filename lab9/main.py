@@ -1,20 +1,75 @@
 #!/usr/bin/env python3
 
 import sys
-
+#  a->j (0->a,1->b, 2->c, 3->d, 4->e,5->f,6->g,7->h, 8->i, 9->j)
+def convert(number):
+    nparam = ''
+    for c in number:
+        match c:
+            case 0:
+                nparam += 'a'
+            case 1:
+                nparam += 'b'
+            case 2:
+                nparam += 'c'
+            case 3:
+                nparam += 'd'
+            case 4:
+                nparam += 'e'
+            case 5:
+                nparam += 'f'
+            case 6:
+                nparam += 'g'
+            case 7:
+                nparam += 'h'
+            case 8:
+                nparam += 'i'
+            case 9:
+                nparam += 'j'   
+            case _:
+                nparam += c
+    return nparam
+    
+def new_fraction(number):
+    return (number+5)%10
+    
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    try:
+        n = float(param)
+        negative = True if n < 0 else False 
+    except:
+        print(format_string)
+    else:
+        if negative:
+            param = param[1:]
+
+        replace = '#.'
+        param_limit = 0
+        for idx in range(0,len(format_string)):
+            if format_string[idx] == '#' and format_string[idx+1] == '.':
+                i=0
+                while format_string[idx+2+i].isnumeric():
+                    replace = replace + str(format_string[idx+2+i])
+                    i+=1
+                param_limit = int(format_string[idx+2:idx+2+i])
+        
+        replace = replace + 'h'
+
+        divided = param.split('.')
+        
+        nparam='' + convert(divided[0]) + '.' + str(new_fraction(divided[1]))
+        
+        if param_limit > len(divided[1]):
+            for x in range(0, param_limit-len(divided[1])):
+                nparam = nparam + 0
+
+        if len(divided) > param_limit:
+            nparam = nparam[0:param_limit]
+
+        if negative:
+            nparam = '-' + nparam
+            
+        print(format_string.replace(replace, str(nparam)))
 
 data=sys.stdin.readlines()
 
