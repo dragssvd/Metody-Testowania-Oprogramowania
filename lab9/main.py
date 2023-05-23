@@ -6,25 +6,25 @@ def convert(number):
     nparam = ''
     for c in number:
         match c:
-            case 0:
+            case '0':
                 nparam += 'a'
-            case 1:
+            case '1':
                 nparam += 'b'
-            case 2:
+            case '2':
                 nparam += 'c'
-            case 3:
+            case '3':
                 nparam += 'd'
-            case 4:
+            case '4':
                 nparam += 'e'
-            case 5:
+            case '5':
                 nparam += 'f'
-            case 6:
+            case '6':
                 nparam += 'g'
-            case 7:
+            case '7':
                 nparam += 'h'
-            case 8:
+            case '8':
                 nparam += 'i'
-            case 9:
+            case '9':
                 nparam += 'j'   
             case _:
                 nparam += c
@@ -60,14 +60,18 @@ def my_printf(format_string,param):
 
         divided = param.split('.')
         
-        nparam='' + convert(divided[0]) + '.' + str(new_fraction(divided[1]))
+        nparam='' + convert(divided[0])
         
-        if param_limit > len(divided[1]):
-            for x in range(0, param_limit-len(divided[1])):
+        decimal = '.' + str(new_fraction(str(divided[1])))
+        
+        if len(decimal) > param_limit:
+            decimal = decimal[0:param_limit]
+        
+        nparam += decimal
+        
+        if param_limit > len(decimal):
+            for x in range(0, param_limit-len(decimal)):
                 nparam = nparam + '0'
-
-        if len(divided) > param_limit:
-            nparam = nparam[0:param_limit]
 
         if negative:
             nparam = '-' + nparam
