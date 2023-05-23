@@ -1,10 +1,30 @@
-totafsdfsf test fdsfsdf
-totafsdtest2 fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf test5 jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds test6 jdlkfjdslf
-fjdslkfjdl test7 tttttt
-fjdlsjfkl test8 oooolll
-rwrewrew test9 fjdslkjfdl
-fjdlskjfldjflj test10 rewrewrew
+totafsdfsf #h fdsfsdf
+totafsdfsf .0h fdsfsdf
+totafsdfsf h fdsfsdf
+totafsdfsf # fdsfsdf
+totafsdfsf fdsfsdf
+totafsdfsf cbd.0198 fdsfsdf
+totafsdfsf gcdee.38906 fdsfsdf
+totafsdfsf bcdbfdc.678679 fdsfsdf
+totafsdfsf gfdeefcde.0130790 fdsfsdf
+totafsdfsf bcdbcdbcd.96796967 fdsfsdf
+totafsdfsf b.60 fdsfsdf
+totafsdfsf c.7000 fdsfsdf
+totafsdfsf d.678000 fdsfsdf
+totafsdfsf e.67898700 fdsfsdf
+totafsdfsf f.6787990000 fdsfsdf
+totafsdfsf b fdsfsdf
+totafsdfsf b.6 fdsfsdf
+totafsdfsf b.67 fdsfsdf
+totafsdfsf b.678 fdsfsdf
+totafsdfsf b.6790 fdsfsdf
+totafsdfsf b.67900 fdsfsdf
+totafsdfsf b.679010 fdsfsdf
+totafsdfsf b.6790120 fdsfsdf
+totafsdfsf b.67901230 fdsfsdf
+totafsdfsf b.679012340 fdsfsdf
+totafsdfsf #.h fdsfsdf
+totafsdfsf #.1h fdsfsdf
+totafsdfsf #.2h fdsfsdf
+totafsdfsf #.3h fdsfsdf
+totafsdfsf #.4h fdsfsdf
