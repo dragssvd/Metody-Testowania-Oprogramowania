@@ -54,22 +54,29 @@ def my_printf(format_string,param):
                 while format_string[idx+2+i].isnumeric():
                     replace = replace + str(format_string[idx+2+i])
                     i+=1
-                param_limit = int(format_string[idx+2:idx+2+i])
-        
+                try:
+                    param_limit = int(format_string[idx+2:idx+2+i])
+                except:
+                    param_limit = 0
+                    
         replace = replace + 'h'
 
         divided = param.split('.')
         
         nparam='' + convert(divided[0])
         
-        decimal = '.' + str(new_fraction(str(divided[1])))
+        decimal = '' 
+        if '.' in param:
+            decimal += str(new_fraction(str(divided[1])))
         
         if len(decimal) > param_limit:
             decimal = decimal[0:param_limit]
         
-        nparam += decimal
+        if len(decimal)>0:
+            nparam += '.' + decimal
         
         if param_limit > len(decimal):
+            if '.' not in nparam: nparam += '.'
             for x in range(0, param_limit-len(decimal)):
                 nparam = nparam + '0'
 
