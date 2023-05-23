@@ -31,7 +31,10 @@ def convert(number):
     return nparam
     
 def new_fraction(number):
-    return (number+5)%10
+    nnumber = ''
+    for x in number:
+        nnumber += str((int(x)+5)%10)
+    return nnumber
     
 def my_printf(format_string,param):
     try:
@@ -61,7 +64,7 @@ def my_printf(format_string,param):
         
         if param_limit > len(divided[1]):
             for x in range(0, param_limit-len(divided[1])):
-                nparam = nparam + 0
+                nparam = nparam + '0'
 
         if len(divided) > param_limit:
             nparam = nparam[0:param_limit]
