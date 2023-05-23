@@ -65,8 +65,9 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,noparam,"No param")
-	$(call perform_test,short,Short)
-	$(call perform_test,long,Long)
+	$(call perform_test,toolong,Long)
+	$(call perform_test,tooshort,Short)
+	$(call perform_test,samelen,"Same len")
 	$(call perform_test,bad,Bad)
 
 	$(call restore_data)
@@ -77,8 +78,9 @@ generate:
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
 	$(call generate_answers,noparam)
-	$(call generate_answers,short)
-	$(call generate_answers,long)
+	$(call generate_answers,toolong)
+	$(call generate_answers,tooshort)
+	$(call generate_answers,samelen)
 	$(call generate_answers,bad)
 
 	$(call restore_data)
@@ -88,6 +90,7 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,noparam)
-	$(call merge_test,short)
-	$(call merge_test,long)
+	$(call merge_test,toolong)
+	$(call merge_test,tooshort)
+	$(call merge_test,samelen)
 	$(call merge_test,bad)
