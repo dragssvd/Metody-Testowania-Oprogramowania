@@ -17,12 +17,12 @@ def my_printf(format_string,param):
 
         replace = '#a'
 
-        param = new_param(param)%2
-        if param != 0:
-            param = str(hex(param)).replace('0x', '')
+        nparam = new_param(int(param))
+        if nparam%2 != 0:
+            nparam = str(hex(nparam)).replace('0x', '')
             
         if negative:
-            nparam = '-' + nparam
+            nparam = '-' + str(nparam)
             
         print(format_string.replace(replace, str(nparam)))
 

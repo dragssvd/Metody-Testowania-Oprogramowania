@@ -1,10 +1,10 @@
-totafsdfsf test fdsfsdf
-totafsdtest2 fdsfsdf fdfjs
+totafsdfsf 82 fdsfsdf
+totafsd2499 fdsfsdf fdfjs
 jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf test5 jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds test6 jdlkfjdslf
-fjdslkfjdl test7 tttttt
-fjdlsjfkl test8 oooolll
-rwrewrew test9 fjdslkjfdl
-fjdlskjfldjflj test10 rewrewrew
+fjdfsfds # a alal
+djfjkldsjf -1070 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds a1dd jdlkfjdslf
+fjdslkfjdl 5648 tttttt
+fjdljfkl 16 oooolll
+rwrewrew 2571428 fjdslkjfdl
+fjdlskfldjflj -10 rewrewrew
