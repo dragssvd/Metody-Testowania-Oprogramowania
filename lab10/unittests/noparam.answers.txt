@@ -1,10 +1,10 @@
-totafsdfsf # fdsfsdf
-totafsd# fdsfsdf fdfjs
 jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds jdlkfjdslf
-fjdslkfjdl tttttt
-fjdlsjfkl oooolll
-rwrewrew fjdslkjfdl
-fjdlskjfldjflj rewrewrew
+fjdfsfds # a alal
+jfldjfldk #b wynik
+fjdfsfds #.a alal
+jfldjfldk #.aa wynik
+fjdfsfds a## alal
+jfldjfldk ## wynik
+fjdfsfds #/a alal
+jfldjfldwynik
+a
