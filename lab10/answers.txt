@@ -1,10 +1,46 @@
-totafsdfsf test fdsfsdf
-totafsdtest2 fdsfsdf fdfjs
 jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf test5 jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds test6 jdlkfjdslf
-fjdslkfjdl test7 tttttt
-fjdlsjfkl test8 oooolll
-rwrewrew test9 fjdslkjfdl
-fjdlskjfldjflj test10 rewrewrew
+fjdfsfds # a alal
+jfldjfldk #b wynik
+fjdfsfds #.a alal
+jfldjfldk #.aa wynik
+fjdfsfds a## alal
+jfldjfldk ## wynik
+fjdfsfds #/a alal
+jfldjfldwynik
+a
+djfjkldsjf 1070 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds a1dd jdlkfjdslf
+fjdslkfjdl 5648 tttttt
+fjdljfkl 8215 oooolll
+rwrewrew bebd5f7 fjdslkjfdl
+fjdlskfldjflj 209 rewrewrew
+djfjkldsjf 71384 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds 2f6bdb jdlkfjdslf
+fjdslkfjdl 403440 tttttt
+fjdljfkl 4062 oooolll
+rwrewrew 146d29a7d3d fjdslkjfdl
+fjdlskfldjflj 33774 rewrewrew
+djfjkldsjf -1070 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds -a1dd jdlkfjdslf
+fjdslkfjdl -5648 tttttt
+fjdljfkl -16 oooolll
+rwrewrew -2571428 fjdslkjfdl
+fjdlskfldjflj -10 rewrewrew
+djfjkldsjf -1070 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds -2 jdlkfjdslf
+fjdslkfjdl -14 tttttt
+fjdljfkl -6 oooolll
+rwrewrew -18 fjdslkjfdl
+fjdlskfldjflj -27434842 rewrewrew
+djfjkldsjf #a jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds #a jdlkfjdslf
+fjdslkfjdl #a tttttt
+fjdljfkl #a oooolll
+rwrewrew #a fjdslkjfdl
+fjdlskfldjflj #a rewrewrew
+djfjkldsjf #a jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds #a jdlkfjdslf
+fjdslkfjdl #a tttttt
+fjdljfkl 0 oooolll
+rwrewrew #a fjdslkjfdl
+fjdlskfldjflj #a rewrewrew
