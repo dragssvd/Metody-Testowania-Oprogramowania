@@ -1,0 +1,20 @@
+jfldjfldk # wynik
+534
+fjdfsfds # a alal
+-124
+jfldjfldk #b wynik
+534
+fjdfsfds #.a alal
+-124
+jfldjfldk #.aa wynik
+534
+fjdfsfds a## alal
+-124
+jfldjfldk ## wynik
+534
+fjdfsfds #/a alal
+-124
+jfldjfldwynik
+534
+a
+-124
